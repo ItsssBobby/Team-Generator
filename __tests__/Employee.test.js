@@ -1,7 +1,7 @@
 const Employee = require('../lib/employee')
 
 describe("Employee", () => {
-    // First test for '.isPalindrome()'
+
     it("should accept a name argument", () => {
     const name = "robert";
     
@@ -9,7 +9,7 @@ describe("Employee", () => {
     
     expect(result.name).toBe(name);
     });
-    // Second test for '.isPalindrome()'
+
     it("accept an id", () => {
     const id = 666;
     
@@ -33,7 +33,7 @@ describe("Employee", () => {
             
             expect(result.getName()).toBe(name);
             });
-            // Second test for '.isPalindrome()'
+
             it("getId should return id", () => {
             const id = 666;
             
