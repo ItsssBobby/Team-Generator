@@ -69,25 +69,25 @@ function intern() {
       
       {
         type: "input",
-        name: "Name",
+        name: "name",
         message: "What is the intern's name?"
       },
 
       {
         type: "input",
-        name: "Id",
+        name: "id",
         message: "What is the intern's employee ID number?" 
       },
 
       {
         type: "input",
-        name: "Email",
+        name: "email",
         message: "What is the intern's email address?"
       },
 
       {
         type: "input",
-        name: "School",
+        name: "school",
         message: "What school does the intern attend?"
       }
 
